@@ -1,0 +1,37 @@
+{
+  "name": "manual-express",
+  "version": "1.0.1",
+  "description": "Express 是基于 Node.js 的轻量 Web 框架，可以快速搭建后端服务与接口。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gitbook serve ./ ./book"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuriv/manual-express.git"
+  },
+  "keywords": [
+    "express",
+    "express-middleware",
+    "express-js",
+    "express-router",
+    "express-nodejs"
+  ],
+  "author": "Kuriv Vesti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kuriv/manual-express/issues"
+  },
+  "homepage": "https://github.com/kuriv/manual-express#readme",
+  "dependencies": {
+    "gitbook-plugin-back-to-top-button": "^0.1.4",
+    "gitbook-plugin-chapter-fold": "0.0.4",
+    "gitbook-plugin-favicon": "0.0.2",
+    "gitbook-plugin-hide-element": "0.0.4",
+    "gitbook-plugin-lightbox": "^1.2.0",
+    "gitbook-plugin-prism": "^2.4.0",
+    "gitbook-plugin-search-pro": "^2.0.2",
+    "gitbook-plugin-splitter": "0.0.8"
+  }
+}
